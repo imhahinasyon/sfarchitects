@@ -1,0 +1,4 @@
+/node_modules
+/public/assets/css
+/src/vendors/bower_components
+.DS_Store
