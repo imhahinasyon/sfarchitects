@@ -1,0 +1,10 @@
+/*--- States ---*/
+
+.is-inactive {
+	color: $black;
+
+	&:hover {
+		color: $green;
+		text-decoration: none;
+	}
+}
