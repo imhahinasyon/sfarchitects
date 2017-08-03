@@ -1,0 +1,23 @@
+{
+  "name": "vendors",
+  "homepage": "https://github.com/imhahinasyon/sfarchitects",
+  "authors": [
+    "Riel Mosqueriola <riel@codeninja.co>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "breakpoint-sass": "^2.7.1",
+    "bootstrap-sass": "^3.3.7",
+    "font-awesome": "^4.7.0"
+  }
+}

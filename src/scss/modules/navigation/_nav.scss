@@ -1,0 +1,18 @@
+/* Navigation Style
+   ========================================================================== */
+
+.main-nav {
+  display: flex;
+  align-items: center;
+
+}
+
+.main-nav li:first-child {
+  margin-right: auto;
+}
+
+.main-nav li {
+	padding-right: 20px;
+}
+
+

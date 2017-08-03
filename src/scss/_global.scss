@@ -1,0 +1,53 @@
+/* ==========================================================================
+   Global Styles
+   ========================================================================== */
+
+.description {
+	font: $light 1em $Roboto; 
+	line-height: 1.7em;
+}
+
+.section__title {
+	font: $regular 1.2em $Raleway;
+	color: $black;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.section__title--centered {
+	text-align: center;
+	font-size: 1.5em;
+
+	@extend .section__title;
+}
+
+.section__description {
+	color: $gray;
+	margin-bottom: 30px;
+
+	@extend .description;
+}
+
+.section__statistics {
+	display: flex;
+	justify-content: space-between;
+	max-width: 90%;
+
+	> ul {
+		text-align: center;
+
+	}
+}
+
+.statistics__title {
+	font: italic .9em $Raleway;
+	color: $light-gray;
+	letter-spacing: 2px;
+}
+
+.statistics__number {
+	font: $bold 2.5em $Raleway;
+	margin-top: 10px;
+
+}

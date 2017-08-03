@@ -1,27 +1,31 @@
-/*--- Layout ---*/
+/* ==========================================================================
+   Layout
+   ========================================================================== */
 
-.l-navigation {
-	margin-top: 20px;
-	margin-bottom: 20px;
 
-	.nav-list {
-	  list-style: none;
-	  padding-top: 10px;
-	}
+/* Breadcrumbs
+   ========================================================================== */
 
-	.nav-list li {
-	  list-style: none;
-	  display: inline-block;
-	  padding-left: 20px;
-	  font-family: $Raleway;
-	  font-size: 16px;
-	  font-weight: $regular;
-	}
+.l-breadcrumbs {
+	margin: 20px 0px;
 }
 
-.l-header {
-	 background: url('../images/header-image.jpg') top left/cover no-repeat;
-	 height: 300px;
 
+/* Overview
+   ========================================================================== */
+
+.l-overview {
+	margin: 20px 0px;
 }
+
+
+/* Featured
+   ========================================================================== */
+.l-featured {
+	margin: 70px 0px;
+}
+
+/* Footer
+   ========================================================================== */
+
 

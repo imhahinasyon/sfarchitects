@@ -445,3 +445,36 @@ template {
 [hidden] {
   display: none;
 }
+
+/* GENERAL STYLING
+   ========================================================================== */
+
+p {
+  letter-spacing: 2px;
+}
+
+
+a {
+  color: $black;
+  letter-spacing: 2px;
+}
+
+a:hover {
+  color: $green;
+  text-decoration: none;
+}
+
+a:active {
+    color: $green;
+    text-decoration: none;
+}
+
+ul {
+  padding-left: 0px;
+  list-style: none;
+}
+
+nav {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

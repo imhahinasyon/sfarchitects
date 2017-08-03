@@ -1,0 +1,37 @@
+/* ==========================================================================
+   Header Styles
+   ========================================================================== */
+
+header {
+	display: flex;
+	background: url(../images/header-image.jpg) top left/cover no-repeat;
+	height: 300px;
+
+	@include breakpoint($phone-up) {
+		height: 200px;
+		align-items: center;
+	}
+}
+
+.header__title {
+	color: $white;
+	font: $heavy 4em $Raleway;
+	letter-spacing: 15px;
+	padding: 0;
+
+	@include breakpoint($phone-up) {
+		font-size: 3em;
+	}
+
+	@include breakpoint($phone-down) {
+		font-size: 2em;
+	}
+}
+
+.header__description {
+	color: $white; 
+	padding: 0;
+
+	@extend .description;
+
+}

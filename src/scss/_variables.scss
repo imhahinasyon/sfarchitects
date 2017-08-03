@@ -1,9 +1,12 @@
 
-/*--- Fonts ---*/ 
+/* ==========================================================================
+   Fonts
+   ========================================================================== */
 
-@import url('https://fonts.googleapis.com/css?family=Raleway:400,600,800|Roboto:300,300i');
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,400,600,800|Roboto:300,300i, 500');
 
 $italize: 300i;
+$e-light: 200;
 $light: 300;
 $regular: 400;
 $bold: 600;
@@ -12,14 +15,29 @@ $heavy: 800;
 $Raleway: 'Raleway';
 $Roboto: 'Roboto';
 
-/*--- Color Schemes ---*/
+/* ==========================================================================
+   Color Schemes
+   ========================================================================== */
 
 $black: #1f1f1f;
 $white: #FFFFFF;
 $green: #3FB96E;
 $gray: #737373;
 $light-gray: #959595;
-$divider-bg: #FCFCFC;
-$gray-type: #B9B9B9;
-$gray-border: #D2D2D2;
 
+
+
+/* ==========================================================================
+   Breakpoints
+   ========================================================================== */
+
+$xs: 320px;
+$sm: 480px;
+$md: 768px;
+$lg: 1024px;
+$xl: 1200px;
+$sl: 1600px;
+
+$phone-down: 0px 320px;
+$phone-up: 320px 768px;
+$tablet-down: 320px 991px;

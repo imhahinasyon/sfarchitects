@@ -32,6 +32,7 @@ l-section
 
 l-featured
   big-title-centered
+  category-info
   c-featured-gallery
     architect-title
     architect-description
