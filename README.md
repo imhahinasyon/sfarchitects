@@ -52,9 +52,9 @@
    <!-- WRAPPER -->
 	<main class="container">
 	some text
-   
    ```
-    ## Prefix meaning
+    
+   ## Prefix meaning
    
    Use prefixes (L and G) for discoverability and readability. Below are as follows
    
@@ -78,8 +78,17 @@
       - _variables.scss
       - style.scss
  
-
-      
-   
-   
-   
+  ## Nested selectors
+  - Nest only three levels deep
+  - Don't nest ID selectors
+  ```
+   **Bad Nested Format**  
+  ```
+  .category {
+  .cat-col {
+    ul {
+      // STOP
+    }
+  }
+}
+  ```
