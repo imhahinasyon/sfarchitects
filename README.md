@@ -15,12 +15,17 @@
   - All classnames must be small letters
   - In properties, put a space after colon (:) (i.e. font-size: 2em);
   - Each scss file should have comment header to identify its module/component
+  - @include and @extend must be on the next line and placed at the bottom of the selector 
   
   **Format**
   ```
   .categories {
 	  display: flex;
 	  margin-top: 50px;
+	  
+	  @include breakpoint($xl) {
+	  	color: blue;
+	}
   }
   ```
   
