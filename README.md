@@ -85,7 +85,7 @@
   - Nest only three levels deep
   - Don't nest ID selectors
   ```
-   **Bad Nested Format**  
+   **Don't nest more than 3 levels deep**  
   ```
   .category {
   .cat-col {
