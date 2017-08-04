@@ -4,6 +4,8 @@
 
 .breadcrumbs-list {
 	display: flex;
+	font: $regular 1em $Raleway;
+	color: $black;
 
 	> li {
 		padding-right: 20px;

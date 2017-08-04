@@ -1,0 +1,33 @@
+/* ==========================================================================
+   Categories Style
+   ========================================================================== */
+
+.categories {
+	display: flex;
+	margin-top: 50px;
+
+	@include breakpoint($tablet-down) {
+		flex-direction: column;
+	}
+
+}
+
+.categories-col {
+	flex: 1;
+	padding-right: 40px;
+
+	> li {
+
+		font: $regular 1em $Raleway;
+		border-bottom: 1px solid $black;
+		padding-bottom: 10px;
+		padding-right: 50px;
+		margin-bottom: 20px;
+
+		&:hover {
+			border-bottom: 1px solid $green;
+		}
+
+	}
+
+}

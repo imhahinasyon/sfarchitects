@@ -1,0 +1,57 @@
+/* ==========================================================================
+   Featured List Style
+   ========================================================================== */
+
+.featured__content {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 30px;
+	flex-flow: row wrap;
+
+	@include breakpoint($xl) {
+		margin-top: 70px;
+	}
+}
+
+
+ .featured__text {
+ 	margin-top: 40px;
+ 	flex: 1;
+ 	padding-right: 30px;
+
+  	@include breakpoint($desktop-down) {
+		flex: inherit;
+
+	}
+ }
+
+
+ .featured-gallery {
+ 	display: flex;
+    flex: 1;
+    flex-flow: row wrap;
+    padding-top: 30px;
+
+ 	@include breakpoint($tablet-down) {
+		justify-content: center;
+
+	}
+ }
+
+
+ .featured__pic {
+ 	padding-right: 10px;
+	max-width: 100%;
+
+ 	@include breakpoint($tablet-down) {
+		margin-bottom: 10px;
+		margin-top: 30px;
+
+	}
+
+ 	@include breakpoint($md-lg-breakpoint) {
+		margin-bottom: 10px;
+
+	}
+ }
+

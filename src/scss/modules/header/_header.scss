@@ -20,7 +20,7 @@ header {
 	padding: 0;
 
 	@include breakpoint($phone-up) {
-		font-size: 3em;
+		font-size: 2em;
 	}
 
 	@include breakpoint($phone-down) {

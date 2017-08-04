@@ -478,3 +478,17 @@ nav {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+footer {
+  display: flex;
+  background-color: $black;
+  margin-top: 40px;
+  color: $white;
+  justify-content: center;
+  padding: 10px 0px;
+
+  > h6 {
+      font-family: $Raleway;
+      letter-spacing: 2px;  
+  }
+}

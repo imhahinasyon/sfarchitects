@@ -7,7 +7,8 @@
 	line-height: 1.7em;
 }
 
-.section__title {
+
+.g-section__title {
 	font: $regular 1.2em $Raleway;
 	color: $black;
 	letter-spacing: 8px;
@@ -15,39 +16,90 @@
 	margin-bottom: 20px;
 }
 
-.section__title--centered {
+
+.g-section__title--centered {
 	text-align: center;
 	font-size: 1.5em;
 
-	@extend .section__title;
+	@extend .g-section__title;
 }
 
-.section__description {
+
+.g-section__description {
 	color: $gray;
 	margin-bottom: 30px;
 
 	@extend .description;
 }
 
-.section__statistics {
+
+.g-section__statistics {
 	display: flex;
 	justify-content: space-between;
 	max-width: 90%;
 
 	> ul {
 		text-align: center;
-
 	}
 }
 
-.statistics__title {
+
+.g-statistics__title {
 	font: italic .9em $Raleway;
 	color: $light-gray;
 	letter-spacing: 2px;
 }
 
-.statistics__number {
+
+.g-statistics__number {
 	font: $bold 2.5em $Raleway;
 	margin-top: 10px;
-
 }
+
+
+.g-green-cta {
+	font: $bold 1em $Raleway;
+	margin-top: 30px;
+
+	> a {
+	  margin: auto;
+	  padding: 1rem 1rem;
+	  text-decoration: none;
+	  color: $green;
+	  position: relative;
+	  transition: all .3s cubic-bezier(.2, 0, 0, 1);
+	  z-index: 1;
+	  
+	  &:after {
+	    content: '';
+	    height: 1px;
+	    position: absolute;
+	    bottom: 0;
+	    right: 1.25rem;
+	    left: 1.25rem;
+	    background-color: $green;
+	    transition: all .3s cubic-bezier(.2, 0, 0, 1);
+	    transform-origin: bottom center;
+	    z-index: -1;
+	  }
+	  
+	  &:hover {
+	    color: $white;
+	    
+	    &:after {
+	      right: 0;
+	      left: 0;
+	      height: 100%;
+	    }
+	  }
+	}
+
+	@include breakpoint($desktop-down) {
+		text-align: center;
+	}
+}
+
+
+
+
+
