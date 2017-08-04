@@ -14,10 +14,9 @@
   - Add space before opening bracket { 
   - All classnames must be small letters
   - In properties, put a space after colon (:) (i.e. font-size: 2em);
-  - Each scss file should have comment header to identify its module/component
   - @include and @extend must be on the next line and placed at the bottom of the selector 
   
-  **Format**
+  ######**Format**
   ```
   .categories {
 	  display: flex;
@@ -28,6 +27,33 @@
 	}
   }
   ```
+  ## Comments
+  - Each scss file should have comment header to identify its module/component
+  - Comments should occupy one line. Inline comments are not allowed 
+  
+    ######**CSS Comment Format**
+  ```
+  /* ==========================================================================
+   Categories Style
+   ========================================================================== */
+  
+  .categories {
+	  display: flex;
+	  margin-top: 50px;
+	  
+	  @include breakpoint($xl) {
+	  	color: blue;
+	}
+  }
+  ```
+  
+    ######**HTML Comment Format**
+   ```
+   <!-- WRAPPER -->
+	<main class="container">
+	some text
+   
+   ```
   
   ## San Francisco Architects File Structure
   
