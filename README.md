@@ -16,7 +16,7 @@
   - In properties, put a space after colon (:) (i.e. font-size: 2em);
   - @include and @extend must be on the next line and placed at the bottom of the selector 
   
-  ######**Format**
+  **Format**
   ```
   .categories {
 	  display: flex;
@@ -31,7 +31,7 @@
   - Each scss file should have comment header to identify its module/component
   - Comments should occupy one line. Inline comments are not allowed 
   
-    ######**CSS Comment Format**
+  **CSS Comment Format**
   ```
   /* ==========================================================================
    Categories Style
@@ -47,7 +47,7 @@
   }
   ```
   
-    ######**HTML Comment Format**
+   **HTML Comment Format**
    ```
    <!-- WRAPPER -->
 	<main class="container">
