@@ -1,135 +1,32 @@
-# sfarchitects
+# sanfranciscoarchitects.org
 
-CSS Architecture: Scalable and Modular Architecture of CSS
+## CSS Architecture: Scalable and Modular Architecture of CSS (SMACSS) and <br> Blocks, Elements, Modules (BEM)
 
-
-Prefix meaning:
-L- Layout
-C- component/module
-IS and HAS - states
-
-Listing Classes structure:
-
-l-navigation
-  logo
-  menu
-
-*l-header-listings (meron kasing header for individual page, kaya may suffix akong listings sa classname ko)
-  header-title
-  header-description
-
-
-l-breadcrumbs
-
-l-section
-  section-title
-  section-description
-
- *c-statistics-horizontal
-    statistics-title
-    statistics-number
-  image
-
-l-featured
-  big-title-centered
-  category-info
-  c-featured-gallery
-    architect-title
-    architect-description
-
-  *c-gallery-two-col 
-  	image
-
-  *c-gallery-three-col
-  	featured-title
-  	image 
-
-  view-link
-
-l-divider
-  divider-title
-  divider-description
-
- l-all
- 	big-title-centered
- 	c-all-list
-
-
-l-footer
-
----------------------------------
-
-Individual Classes structure:
-
-l-navigation
-  logo
-  menu
-
-*l-header-individual
-	header-title
-
-
-l-breadcrumbs
-
-
-l-overview
-  section-title
-  section-description
-
- *c-statistics-vertical
-    statistics-title
-    statistics-number
-
-l-architects
-	section-title
-		c-bio-horizontal
-			architecture-name
-				architect-name
-				description
-				awards
-				description
-				contact
-				description
-			architecture-image
-
-		c-architect-quote
-
-		c-architect-about
-			about-title
-			description
-			keep-reading
-
-		c-architect-projects
-
-l-districts
-	district-name
-	
-	*c-street
-		street-name
-		description
-		c-bio-vertical
-			architect-name
-			description
-			contact
-			description
-
-		c-street-images
-	line-divider
-
-	*c-street
-		street-name
-		c-bio-horizontal
-			architect-name
-			description
-			contact
-			description
-		description
-
-		c-street-images
-	line-divider
-
-
-
-
-
-
+### File Structurure used: SMACSS
+  
+### Class name styles: BEM 
+  
+  ## San Francisco Architects File Structure
+  
+    - SCSS
+      - Modules
+        - all components / modules
+      - _base.scss (contains normalize and general semantics styles)
+      - _layout.scss
+      - _global.scss
+      - _modules.scss (imports all components found in Modules folder)
+      - _utils.scss (imports all third party i.e. bootstrap)
+      - _variables.scss
+      - style.scss
+ 
+   ## Prefix meaning
+   
+   In San Francisco architect html files, I've used prefixes which will direct developers to specific scss files. Below are as follows:
+   
+   **L** - all class names with prefix "L" (i.e l-overview, l-categories) can be found under _layout.scss
+   
+   **G** - all class names with prefix "G" which represents modules/components (i.e. g-section__title) can be found under _global.scss
+      
+   
+   
+   
