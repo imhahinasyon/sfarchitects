@@ -14,6 +14,7 @@
   - Add space before opening bracket { 
   - All classnames must be small letters
   - In properties, put a space after colon (:) (i.e. font-size: 2em);
+  - Use 0 for values that are "none" except display property
   - @include and @extend must be on the next line and placed at the bottom of the selector 
   
   **Format**
@@ -21,6 +22,8 @@
   .categories {
 	  display: flex;
 	  margin-top: 50px;
+	  border: 0;
+	  
 	  
 	  @include breakpoint($xl) {
 	  	color: blue;
