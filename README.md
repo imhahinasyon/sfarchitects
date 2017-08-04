@@ -1,4 +1,4 @@
-# sanfranciscoarchitects.org
+# sanfranciscoarchitects
 
 ## CSS Architecture: Scalable and Modular Architecture of CSS (SMACSS) and <br> Blocks, Elements, Modules (BEM)
 
