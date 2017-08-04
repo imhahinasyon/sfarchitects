@@ -11,8 +11,6 @@
   - Use dash (-) instead of Camelcasing for class names, or __ and -- if using BEM structure
   - No use of ID selectors
   - Only one property per line
-    (font-size: 1em;
-      color: black;)
   - Add space before opening bracket { 
   - All classnames must be small letters
   - In properties, put a space after colon (:) (i.e. font-size: 2em);
