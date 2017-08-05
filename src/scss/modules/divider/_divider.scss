@@ -1,0 +1,14 @@
+/* ==========================================================================
+   Divider Style
+   ========================================================================== */
+
+.divider {
+	display: flex;
+	background: url(../images/tagline.png) top left/cover no-repeat;
+	height: 200px;
+
+	@include breakpoint($phone-up) {
+		height: 200px;
+		align-items: center;
+	}
+}

@@ -55,3 +55,37 @@
 	}
  }
 
+/* ==========================================================================
+   Featured Grid
+   ========================================================================== */
+
+.grid-wrapper {
+	margin-top: 40px;
+}
+
+ .flex-row {
+ 	display: flex;
+    flex-wrap: wrap;
+ }
+
+ .featured__photo {
+ 	display: flex;
+ 	flex: 1 1 0;
+ 	position: relative;
+
+ 	> .featured__title {
+ 		position: absolute;
+	    border: 1px solid white;
+	    padding: 15px 45px;
+	    bottom: 0;
+	    right: 0;
+	    background-color: $white;
+	    font: $regular 1em $Raleway;
+ 	}
+ 	
+ 	> img {
+ 		flex: .95;
+ 		margin-bottom: 20px;
+ 		object-fit: cover;
+ 	}
+ }
