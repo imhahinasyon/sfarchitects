@@ -63,7 +63,7 @@
    
    **L** - all class names with prefix "L" (i.e l-overview, l-categories) can be found under _layout.scss
    
-   **G** - all class names with prefix "G" which represents modules/components (i.e. g-section__title) can be found under _global.scss 
+   **G** - all class names with prefix "G" (i.e. g-section__title) can be found under _global.scss 
    
   ## San Francisco Architects File Structure
   
@@ -80,12 +80,14 @@
       - _utils.scss (imports all third party i.e. bootstrap)
       - _variables.scss
       - style.scss
+ ```
  
   ## Nested selectors
   - Nest only three levels deep
   - Don't nest ID selectors
-  ```
-   **Don't nest more than 3 levels deep**  
+   
+   **Don't nest more than 3 levels deep**   
+
   ```
   .category {
   .cat-col {
