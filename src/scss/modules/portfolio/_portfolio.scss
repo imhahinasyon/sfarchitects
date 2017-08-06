@@ -1,0 +1,53 @@
+/* ==========================================================================
+   Portfolio Styles
+   ========================================================================== */
+
+.portfolio {
+	display: flex;
+	align-items: baseline;
+
+	@include breakpoint($phone-up) {
+      flex-flow: column wrap;   
+  	}
+}
+
+.portfolio__text {
+	padding-right: 40px;
+
+	@include breakpoint($phone-up) {
+      margin-top: 40px; 
+  	}
+
+	> .portfolio__nav {
+		display: flex;
+		justify-content: space-between;
+		border-bottom: 1px solid $light-gray;
+		padding-bottom: 15px;
+
+			> span {
+				font-size: 1.2em;
+				font-family: $Roboto;
+				color: $black;
+			}
+
+			> span a {
+				font-size: 1.2em;
+			}
+	}
+
+	> .portfolio__description {
+		margin-top: 20px;
+
+		@extend .g-section__description;
+	}
+}
+
+.portfolio__carousel {
+
+	> img {
+
+		@include breakpoint($phone-up) {
+	      width: 100%; 
+	  	}
+	}
+}

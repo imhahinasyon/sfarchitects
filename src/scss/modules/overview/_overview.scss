@@ -56,3 +56,18 @@
 	}
 
 }
+
+/* Overview individual style
+   ========================================================================== */
+   
+.overview__image--indiv {
+	display: flex;
+    flex-wrap: wrap;
+
+    > img {
+	   	flex: 1;
+	    align-self: center;
+	    width: 100%;
+	    padding: 10px;
+    }
+}

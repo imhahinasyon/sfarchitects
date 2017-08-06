@@ -1,0 +1,59 @@
+/* ==========================================================================
+   Architect Styles
+   ========================================================================== */
+
+ .architect__profile {
+ 	display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+
+    @include breakpoint($phone-up-max) {
+    	flex-direction: column;
+    }
+
+
+ 	> img {
+ 		width: 25%;
+ 		flex: 1;
+    	align-self: center;
+
+    	@include breakpoint($phone-up-max) {
+	    	width: 80%;
+	    }
+ 	}
+ }
+
+ .architect__profile--text {
+ 	flex: 3;
+    padding: 0px 30px;
+
+	@include breakpoint($phone-up-max) {
+	padding: 0;
+	margin-top: 20px;
+	}
+
+	> .architect__name {
+		font: $regular 1.7em $Roboto;
+		color: $gray;
+		letter-spacing: 2px;
+	}
+
+	> i {
+		font-size: 1.7em;
+    	padding-right: 10px;
+    	color: $light-gray;
+	}
+ }
+
+ .architect__quote {
+ 	margin-top: 40px;
+ 	text-align: center;
+ 	font-family: $Raleway;
+ 	color: #B9B9B9;
+ 	font-style: italic;
+ 	font-weight: $light;
+
+ 	> h3 {
+ 		line-height: 1.7em;
+ 	}
+ }
