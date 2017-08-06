@@ -35,3 +35,26 @@ header {
 	@extend .description;
 
 }
+
+/* Individual Header
+   ========================================================================== */
+
+.header--individual {
+	height: 200px;
+
+}
+
+.header__title--individual {
+
+	@extend .header__title;
+
+	@include breakpoint($phone-up) {
+		font-size: 1.2em;
+		line-height: 1.7em;
+	}
+
+	@include breakpoint($phone-down) {
+		font-size: 1em;
+		line-height: 1.7em;
+	}	
+}

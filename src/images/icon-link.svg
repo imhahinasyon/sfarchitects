@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="15px" viewBox="0 0 16 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>link-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ic_link" transform="translate(-4.000000, -4.000000)">
+            <g id="link-icon" transform="translate(-1.000000, -1.000000)">
+                <rect id="Rectangle-7" stroke="#737373" x="5.77777778" y="6.75490196" width="14.4444444" height="11.0457516" rx="5.52287582"></rect>
+                <rect id="Rectangle-8" fill="#FFFFFF" x="11.968254" y="5.05555556" width="2.06349206" height="14.4444444"></rect>
+                <path d="M10.5925926,12.7026144 L15.7627739,12.7026144" id="Line" stroke="#737373" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>

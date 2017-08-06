@@ -5,13 +5,16 @@
 .overview__text {
 	padding-left: 0px;
 	padding-right: 0px;
+	flex: 3;
 
 	@include breakpoint($tablet-down) {
-		margin: 40px 0px;
+		margin: 10px 0px;
 	}
 }
 
 .overview__image {
+	flex: 2.5;
+
 	@include breakpoint($tablet-down) {
 		display: flex;
 		justify-content: center;
@@ -21,4 +24,35 @@
 		max-width: 100%;
 		display: flex;
 	}
+}
+
+.overview__contact {
+	display: flex;
+	align-items: center;
+
+	@include breakpoint ($phone-up) {
+		display: grid;
+	}
+
+	> .overview__contact--icon {
+		margin-right: 10px;
+
+		@include breakpoint ($phone-up) {
+			margin-bottom: 5px;
+		}
+	}
+
+	> .overview__contact--text {
+		margin-right: 25px;
+		color: $gray;
+		font-family: $Roboto;
+		font-weight: $light;
+		letter-spacing: 1px;
+
+		@include breakpoint ($phone-up) {
+			margin-bottom: 20px;
+		}
+
+	}
+
 }

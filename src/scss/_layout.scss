@@ -17,8 +17,14 @@
 .l-overview {
 	margin-top: 20px;
    padding-bottom: 70px;
-	display: flex;
-	flex-wrap: wrap;
+   display: flex;
+
+
+
+   @include breakpoint($phone-up) {
+      flex-flow: column wrap;    
+      padding-bottom: 20px; 
+   }
 }
 
 

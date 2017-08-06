@@ -34,7 +34,7 @@
 }
 
 
-.g-section__statistics {
+.g-statistics--horizontal {
 	display: flex;
 	justify-content: space-between;
 	max-width: 90%;
@@ -42,6 +42,16 @@
 	> ul {
 		text-align: center;
 	}
+}
+
+.g-statistics--vertical {
+	flex: 1;
+	text-align: center;
+
+	@include breakpoint($tablet-down-special) {
+		margin: 40px 0px;
+	}
+
 }
 
 
@@ -55,6 +65,8 @@
 .g-statistics__number {
 	font: $bold 2.5em $Raleway;
 	margin-top: 10px;
+
+	margin-bottom: 20px;
 }
 
 
