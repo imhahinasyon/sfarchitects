@@ -7,6 +7,7 @@ sass = require('gulp-sass'),
 sourcemaps = require('gulp-sourcemaps'),
 sitemap = require('gulp-sitemap'),
 imageOptim = require ('gulp-imageoptim'),
+cleanCSS = require('gulp-clean-css'),
 include = require ('gulp-include');
 
 var input = './src/scss/**/*.scss';
@@ -32,6 +33,13 @@ gulp.task('sass', function() {
         // CSS Output Folder
         .pipe(gulp.dest(output));
 });
+
+// Minify our CSS
+gulp.task('minify-css', function() {
+  return gulp.src('./public/assets/css/style.css')
+    .pipe(cleanCSS({compatibility: 'ie8'}))
+    .pipe(gulp.dest('./public/assets/css/minify'));
+})
 
 // Optimize Images
 gulp.task('images', function() {

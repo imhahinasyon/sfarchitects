@@ -4,7 +4,7 @@
 
 header {
 	display: flex;
-	background: url(../images/header-image.jpg) top left/cover no-repeat;
+	background: url(../../images/header-image.jpg) top left/cover no-repeat;
 	height: 300px;
 
 	@include breakpoint($phone-up) {
